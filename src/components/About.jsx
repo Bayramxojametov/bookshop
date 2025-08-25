@@ -1,7 +1,6 @@
-import React from "react";
-import aboutStyles from "../assets/dummystyles";
+import London from "../assets/London.jpg";
 import { apstats } from "../assets/dummydata";
-import AboutUsImage from "../assets/aboutUsImage.png";
+import aboutStyles from "../assets/dummystyles";
 
 const About = () => {
   return (
@@ -45,7 +44,7 @@ const About = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div className={aboutStyles.aboutImageWrapper}>
               <img
-                src={AboutUsImage}
+                src={London}
                 alt="About"
                 className={aboutStyles.aboutImage}
               />
