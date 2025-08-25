@@ -1,14 +1,12 @@
-import React from "react";
 import { Route, Routes } from "react-router-dom";
-import Home from "./pages/Home";
-import CartPage from "./pages/CartPage";
 import AboutPage from "./pages/AboutPage";
+import CartPage from "./pages/CartPage";
+import Home from "./pages/Home";
 
-import ContactPage from "./pages/ContactPage";
 import Login from "./components/Login";
 import BookPage from "./pages/BookPage";
-
-import SignUp from "./components/Signup";
+import ContactPage from "./pages/ContactPage";
+import SignUp from "./components/SignUp";
 
 const App = () => {
   return (
